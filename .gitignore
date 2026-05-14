@@ -1,0 +1,28 @@
+# Dependencias (No se suben porque se instalan con npm install)
+node_modules/
+jspm_packages/
+
+# Archivos de cobertura de pruebas (Generados por npm test -- --coverage)
+coverage/
+*.lcov
+
+# Variables de entorno y secretos (Seguridad)
+.env
+.env.test
+.env.local
+
+# Logs (Archivos de error o registro)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,28 @@
+{
+  "name": "gcf-tecnorepuestos-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaladDann/GCF-TecnoRepuestos-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SaladDann/GCF-TecnoRepuestos-System/issues"
+  },
+  "homepage": "https://github.com/SaladDann/GCF-TecnoRepuestos-System#readme",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

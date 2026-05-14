@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node src/app.js",
+    "test": "jest --coverage",
+    "dev": "nodemon src/app.js",
+    "seed:admin": "node src/scripts/seedAdmin.js"
   },
   "repository": {
     "type": "git",
